@@ -1,7 +1,7 @@
 # Redmine Markdown Extra formatter
 require 'redmine'
 
-RAILS_DEFAULT_LOGGER.info 'Starting Markdown Extra formatter for RedMine'
+Rails.logger.info 'Starting Markdown Extra formatter for RedMine'
 
 Redmine::Plugin.register :redmine_markdown_extra_formatter do
   name 'Markdown Extra formatter'
