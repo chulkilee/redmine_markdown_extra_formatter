@@ -1,5 +1,7 @@
 # Redmine Markdown Extra formatter
 require 'redmine'
+require File.dirname(__FILE__) + '/lib/redmine_markdown_extra_formatter/wiki_formatter'
+require File.dirname(__FILE__) + '/app/helpers/redmine_markdown_extra_formatter/helper'
 
 Rails.logger.info 'Starting Markdown Extra formatter for RedMine'
 
